@@ -9,13 +9,13 @@ public class HeightMapSettings : UpdatableData
     public bool useFalloff;
 
     public float heightMultiplier;
-    public AnimationCurve heightCurve;
+    public HeightCurveScriptableObject heightCurve;
 
     public float minHeight
     {
         get
         {
-            return  heightMultiplier * heightCurve.Evaluate(0);
+            return  heightMultiplier * heightCurve.heightCurve.Evaluate(0);
         }
     }
 
@@ -23,7 +23,7 @@ public class HeightMapSettings : UpdatableData
     {
         get
         {
-            return heightMultiplier *heightCurve.Evaluate(1);
+            return heightMultiplier *heightCurve.heightCurve.Evaluate(1);
         }
     }
 

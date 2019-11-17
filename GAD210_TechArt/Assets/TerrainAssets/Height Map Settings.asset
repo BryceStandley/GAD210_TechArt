@@ -18,59 +18,9 @@ MonoBehaviour:
     scale: 50
     octaves: 6
     persistance: 0.45
-    lacunatity: 1.9
+    lacunatity: 2.67
     seed: 0
     offset: {x: 0, y: 0}
   useFalloff: 0
   heightMultiplier: 50
-  heightCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.26922095
-      value: 0.032730483
-      inSlope: 0.1792253
-      outSlope: 0.1792253
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.44531247
-      value: 0.2620647
-      inSlope: 0.23878592
-      outSlope: 0.23878592
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.13700491
-    - serializedVersion: 3
-      time: 0.82972646
-      value: 0.7443392
-      inSlope: 0.09545109
-      outSlope: 0.09545109
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.098169185
-      outWeight: 0.21153715
-    - serializedVersion: 3
-      time: 1.0639479
-      value: 1.0990562
-      inSlope: -0.36577174
-      outSlope: -0.36577174
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.21182598
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  heightCurve: {fileID: 11400000, guid: 3ba26617c2d8b2345931ade1fd228adf, type: 2}

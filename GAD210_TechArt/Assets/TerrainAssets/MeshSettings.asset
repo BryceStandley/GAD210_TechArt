@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MeshSettings
   m_EditorClassIdentifier: 
   autoUpdate: 1
-  chunkSizeIndex: 4
+  chunkSizeIndex: 8
   flatChunkSizeIndex: 0
   meshScale: 2.5
   useFlatShading: 0
